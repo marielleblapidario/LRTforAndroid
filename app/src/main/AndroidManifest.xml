@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.mobidev.barrettokalingolapidario.testingproject" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="LRT for Android"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="edu.mobidev.barrettokalingolapidario.newtestingproject.MainActivity"
+            android:label="LRT STATIONS" >
+        </activity>
+        <activity
+            android:name="edu.mobidev.barrettokalingolapidario.newtestingproject.About"
+            android:label="ABOUT LRT" >
+        </activity>
+        <activity
+            android:name="edu.mobidev.barrettokalingolapidario.newtestingproject.TemplateActivity"
+            android:label="VIEW REPORT">
+        </activity>
+        <activity
+            android:name="edu.mobidev.barrettokalingolapidario.newtestingproject.SignIn"
+            android:label="LRT FOR ANDROID" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.mobidev.barrettokalingolapidario.newtestingproject.SignUp"
+            android:label="SIGN UP" >
+        </activity>
+        <activity
+            android:name="edu.mobidev.barrettokalingolapidario.newtestingproject.SendReport"
+            android:label="SEND REPORT" >
+        </activity>
+        <activity
+            android:name="edu.mobidev.barrettokalingolapidario.newtestingproject.ViewAllReports"
+            android:label="VIEW REPORT" >
+        </activity>
+        <activity
+            android:name="edu.mobidev.barrettokalingolapidario.newtestingproject.ReportCrowdTraffic"
+            android:label="SEND CROWD TRAFFIC REPORT" >
+        </activity>
+        <activity
+            android:name="edu.mobidev.barrettokalingolapidario.newtestingproject.ReportCodeAlert"
+            android:label="SEND CODE ALERT REPORT" >
+        </activity>
+        <activity
+            android:name="edu.mobidev.barrettokalingolapidario.newtestingproject.ReportClosure"
+            android:label="SEND CLOSURE REPORT" >
+        </activity>
+        <activity
+            android:name="edu.mobidev.barrettokalingolapidario.newtestingproject.Template_Report"
+            android:label="@string/title_activity_template__report" >
+        </activity>
+        <activity
+            android:name="edu.mobidev.barrettokalingolapidario.newtestingproject.AboutInformationDetails"
+            android:label="ABOUT LRT" >
+        </activity>
+        <activity
+            android:name="edu.mobidev.barrettokalingolapidario.newtestingproject.StationReport"
+            android:label="SUMMARY REPORT" >
+        </activity>
+    </application>
+
+</manifest>
